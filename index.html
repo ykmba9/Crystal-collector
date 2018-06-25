@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<h1>Crystal Collector</h1>
+
+	<div class="game" align=center>
+		<h3>How to play the game?</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.
+				<span>"Number To Get"</span>
+			</li>
+			<li>There are four crystals below - blue, green, red and orange.</li>
+			<li>By clicking on a press-button, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each press-button is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each press-button.</li>
+		</ol>
+		</br>
+
+
+		<h2>Number To Get:
+			<span id="randomNumber"></span>
+		</h2>
+
+		</br>
+
+
+		<h2>Wins:
+			<span id="numberWins"></span>
+			</br>
+			Losses:
+			<span id="numberLosses"></span>
+		</h2>
+		</br>
+
+		
+			<img src="assets/images/blue.jpg" class=pressImage id="one" alt="Blue button">
+			<img src="assets/images/green.jpg" class=pressImage id="two" alt="Green button">
+			<img src="assets/images/red.jpg" class=pressImage id="three" alt="Red button">
+			<img src="assets/images/orange.jpg" class=pressImage id="four" alt="Orange button">
+		
+
+		</br>
+
+		<h2>Total Score:
+			<span id="finalTotal"></span>
+		</h2>
+		</br>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>

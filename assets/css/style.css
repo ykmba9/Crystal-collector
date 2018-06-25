@@ -1,0 +1,35 @@
+/* General Elements*/
+body{
+	background-image: url("../images/background.jpg")
+}
+div{
+	background-color: grey;
+	margin: 10px;
+	width: 35%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 40pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+
+/* Specfic Elements*/
+
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+
+.pressImage{
+	height: 60px;
+	margin: 10px;
+}
